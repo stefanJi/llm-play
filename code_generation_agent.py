@@ -9,9 +9,9 @@ class CodeGenerationAgent:
     def __init__(self):
         self.llm = ChatOpenAI(
             # Replace with your API Key
-            openai_api_key="ark-393c4598-78a4-48ba-85bd-5c102890ad1f-63ce5",
+            openai_api_key="xx",
             # The base URL for model invocation
-            openai_api_base="https://ark.cn-beijing.volces.com/api/v3",
+            openai_api_base="xxx",
             # Replace with Model ID
             model_name="glm-4-7-251222",
         )
